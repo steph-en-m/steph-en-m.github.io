@@ -1,0 +1,87 @@
+
+html{
+     background-color: #050505;
+}
+body{
+     margin:0;  
+}
+
+.main-content{
+              margin-left:18%;
+              padding:80px 16px;
+              height: 50%;
+                           
+}
+
+.head{
+        background: #020a05;
+        box-shadow: 0 0 40px rgba(0,0,0,.3);
+        left: 0%;
+        position: fixed;
+        right: 0;
+        top: 0;
+        color:#fff;
+        text-align: center;
+        font-size:23px;
+}
+
+.text {
+    /*border: 1px solid gray;*/
+    margin-bottom:20px;
+    margin-right:80px;
+    margin-left:50px;
+}
+
+/* Style the horizontal ruler */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.content{      
+             margin-top:6%;
+             margin-left: 15%;
+             margin-right:15%;
+             padding: 20px;
+             font-size: 18px ;
+             font:'Arial' sans-serif;
+             box-shadow:2px 2px 2px#0d1410;
+             border:1px solid #14271b;
+             background: #020a05;
+             color: #f2f2f2;
+             
+}
+
+.footer{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width:100%;
+        background-color:#07140c;
+        color:#ccc;
+        text-align: center;
+        font-size:24;
+                
+}
+
+/* button styles */
+button {
+    background-color: rgb(3,28,97);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.head:hover {
+    background-color: #43D1AF;
+}
+ 
+/* Change styles for signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .signupbtn {
+       width: 100%;
+    }
+}
