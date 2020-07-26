@@ -20,8 +20,8 @@ body{
     border-width: 200px 550px;
     /*test*/
     box-shadow: 0 0 40px rgba(0,0,0,.3);
-    left: 0%;
-    position: relative;
+    left: 8%;
+    position: absolute;
     right: 0;
     top: 0;
     color:#fff;
@@ -30,8 +30,8 @@ body{
 }
 
 .head{
-        background: #ccc;
-        box-shadow: 0 0 40px rgba(0,0,0,.3);
+        /*background: #ccc;*/
+        /*box-shadow: 0 0 40px rgba(0,0,0,.3);*/
         left: 0%;
         position: fixed;
         right: 0;
@@ -43,9 +43,9 @@ body{
 
 .text {
     /*border: 1px solid gray;*/
-    margin-bottom:20px;
-    margin-right:80px;
-    margin-left:50px;
+    margin-bottom:5%;
+    margin-right:7%;
+    margin-left:7%;
 }
 
 /* Style the horizontal ruler */
@@ -56,13 +56,14 @@ hr {
 
 .content{      
              margin-top:5%;
-             margin-left: 15%;
-             margin-right:15%;
+             margin-left: 5%;
+             margin-right:5%;
              padding: 20px;
              font-size: 18px ;
              font:'Arial' sans-serif;
              box-shadow:2px 2px 2px#f1f1f1;
              border:1px solid #cccc;
+             border-radius: 2%;
              background: #ccc;
              color: #000;
              
