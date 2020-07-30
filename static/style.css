@@ -2,41 +2,23 @@
 
 body{
      margin: 0;
-     background-color: #fff;  
+     background-color:rgb(41, 41, 41);  
 }
 
 .avatar{
     vertical-align: middle;
-    width: 5%;
-    height: 5%;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
 }
 
-.triangle{
-    width: 0;
-    height: 0;
-    border: solid 350px;
-    border-color: gray transparent transparent transparent;
-    border-width: 200px 550px;
-    /*test*/
-    box-shadow: 0 0 40px rgba(0,0,0,.3);
-    left: 8%;
-    position: absolute;
-    right: 0;
-    top: 0;
-    color:#fff;
-    text-align: center;
-    font-size:18px;
-}
-
 .head{
-        /*background: #ccc;*/
-        /*box-shadow: 0 0 40px rgba(0,0,0,.3);*/
+        box-shadow: 0 0 40px rgba(238, 238, 238, 0.3);
         left: 0%;
         position: fixed;
         right: 0;
         top: 0;
-        color:#fff;
+        height: 11%;
         text-align: center;
         font-size:18px;
 }
@@ -55,27 +37,30 @@ hr {
 }
 
 .content{      
-             margin-top:5%;
-             margin-left: 5%;
-             margin-right:5%;
-             padding: 20px;
-             font-size: 18px ;
-             font:'Arial' sans-serif;
-             box-shadow:2px 2px 2px#f1f1f1;
-             border:1px solid #cccc;
-             border-radius: 2%;
-             background: #ccc;
-             color: #000;
+        margin-top:5.2%;
+        margin-left: 5%;
+        margin-right:5%;
+        padding: 20px;
+        font-size: 18px ;
+        font:'Arial' sans-serif;
+        box-shadow:2px 2px 2px #909090;
+        border:1px solid #cccc;
+        border-radius: 2%;
+        background: #ccc;
+        color: #000;
              
 }
 
 .footer{
         position: absolute;
+        box-shadow:2px 2px 2px #909090;
+        border-top:1px solid rgba(27, 26, 26, 0.8);
+        border-radius: 4%;
         bottom: 0;
         left: 0;
         width:100%;
-        background-color:#ccc;
-        color:#000;
+        background-color:#0C1D2E;
+        color: #f1f1f1;
         text-align: center;
         font-size:24;
                 
@@ -98,4 +83,22 @@ button {
     .signupbtn {
        width: 100%;
     }
+}
+
+
+.triangle{
+    width: 0;
+    height: 0;
+    border: solid 350px;
+    border-color: transparent transparent transparent;
+    border-width: 200px 550px;
+    /*test*/
+    left: 8%;
+    /*left: 0%;*/
+    position: fixed;
+    right: 0;
+    top: 0;
+    /*color:rgb(27, 26, 26);*/
+    text-align: center;
+    font-size:18px;
 }
